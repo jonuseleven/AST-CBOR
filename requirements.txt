@@ -1,0 +1,12 @@
+# AST_CBOR Core Dependencies
+# Install: pip install -r requirements.txt
+
+# LLM API Clients
+openai==1.97.0         # OpenAI and DeepSeek (OpenAI-compatible endpoint)
+anthropic==0.109.1     # Anthropic API (Claude models)
+
+# Gurobi Optimization (required for solver generation & execution)
+gurobipy==13.0.2
+
+# Utility
+python-dotenv==0.21.0  # .env file support
